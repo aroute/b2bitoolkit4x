@@ -20,4 +20,5 @@ RUN mkdir -p $NFS_HOME \
 
 USER ${user}
 
+
 ENTRYPOINT ["/bin/bash", "-ce", "tail -f /dev/null"]
